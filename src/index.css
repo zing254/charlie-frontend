@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --neon-blue: #00f0ff;
+  --neon-pink: #ff00ff;
+  --dark-bg: #0a0a0f;
+}
+
+body {
+  background: var(--dark-bg);
+  color: white;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
